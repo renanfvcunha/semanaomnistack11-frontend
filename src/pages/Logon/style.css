@@ -1,3 +1,43 @@
-h1 {
-  color: #7159c1
+.logonContainer {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logonContainer .form {
+  width: 100%;
+  max-width: 350px;
+  margin-right: 30px;
+}
+
+.logonContainer .form form {
+  margin-top: 100px;
+}
+
+.logonContainer .form form h1 {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.logonContainer .form form a {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: #41414d;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.logonContainer .form form a svg {
+  margin-right: 8px;
+}
+
+.logonContainer .form form a:hover {
+  opacity: 0.8s;
 }
